@@ -9,5 +9,9 @@ git credentialsId: '21d49ec5-7165-4149-a05d-09c4359abc66', url: 'https://github.
   {
   sh "${mavenHome}/bin/mvn clean package"
   }
+  stage('Sonarqube Report')
+  {
+  sh "${mavenHome}/bin/mvn sonar:sonar"
+  }
   
 }
