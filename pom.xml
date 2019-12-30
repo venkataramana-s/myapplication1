@@ -16,6 +16,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>admin</maven.compiler.source>
     <maven.compiler.target>admin</maven.compiler.target>
+    <sonar.login>admin</sonar.login>
+    <sonar.password>admin</sonar.password>
   </properties>
 
   <dependencies>
